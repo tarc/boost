@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>boost</id>
+		<version>$Version$</version>
+		<authors>So Many</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Boost Libraries with custom nuspec file</description>
+	</metadata>
+
+	<files>
+		<file src="boost\**\*" target="boost\" />
+		<file src="stage\lib\**" target="lib\" />
+	</files>
+</package>
