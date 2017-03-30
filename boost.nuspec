@@ -9,7 +9,7 @@
 	</metadata>
 
 	<files>
-		<file src="boost\**\*" target="boost\" />
+		<file src="boost\**\*" target="include\boost\" />
 		<file src="stage\lib\**" target="lib\" />
 	</files>
 </package>
