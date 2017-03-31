@@ -2,14 +2,15 @@
 <package >
 	<metadata>
 		<id>boost</id>
-		<version>$Version$</version>
+		<version>$version$</version>
 		<authors>So Many</authors>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Boost Libraries with custom nuspec file</description>
 	</metadata>
 
 	<files>
-		<file src="boost\**\*" target="include\boost\" />
-		<file src="stage\lib\**" target="lib\" />
+		<file src="boost\**\*" target="build\native\include\boost\" />
+		<file src="stage\lib\**" target="lib\native\" />
+		<file src="boost.targets" target="build\native\" />
 	</files>
 </package>
