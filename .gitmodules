@@ -552,21 +552,21 @@
 	fetchRecurseSubmodules = on-demand
 [submodule "contract"]
 	path = libs/contract
-	url = ../contract.git
+	url = https://github.com/boostorg/contract.git
 	fetchRecurseSubmodules = on-demand
 [submodule "check_build"]
 	path = tools/check_build
-	url = ../check_build.git
+	url = https://github.com/boostorg/check_build.git
 	fetchRecurseSubmodules = on-demand
 [submodule "container_hash"]
 	path = libs/container_hash
-	url = ../container_hash.git
+	url = https://github.com/boostorg/container_hash.git
 	fetchRecurseSubmodules = on-demand
 [submodule "hof"]
 	path = libs/hof
-	url = ../hof.git
+	url = https://github.com/boostorg/hof.git
 	fetchRecurseSubmodules = on-demand
 [submodule "yap"]
 	path = libs/yap
-	url = ../yap.git
+	url = https://github.com/boostorg/yap.git
 	fetchRecurseSubmodules = on-demand
